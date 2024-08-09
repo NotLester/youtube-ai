@@ -1,10 +1,9 @@
-import { error } from "console"
 import { OpenAI } from "openai"
 
 import type { PlasmoMessaging } from "@plasmohq/messaging"
 
 const llm = new OpenAI({
-  apiKey: "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"
+  apiKey: process.env.OPENAI_API_KEY
 })
 
 const SYSTEM = `
