@@ -1,7 +1,7 @@
 import type { Message } from "@/lib/constants"
 
-import Markdown from "./markdown"
-import { IconOpenAI, IconUser } from "./ui/icons"
+import Markdown from "../markdown"
+import { IconOpenAI, IconUser } from "../ui/icons"
 
 interface ChatItemProps {
   message: Message

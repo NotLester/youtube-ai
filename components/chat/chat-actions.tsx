@@ -4,15 +4,15 @@ import { models, type Model } from "@/lib/constants"
 import { cn } from "@/lib/utils"
 import { PlusIcon } from "@radix-ui/react-icons"
 
-import { Button } from "./ui/button"
+import { Button } from "../ui/button"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue
-} from "./ui/select"
-import { TooltipWrapper } from "./ui/tooltip-wrapper"
+} from "../ui/select"
+import { TooltipWrapper } from "../ui/tooltip-wrapper"
 
 interface ChatActionProps {
   className?: string

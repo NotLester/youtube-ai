@@ -3,15 +3,15 @@ import { models, prompts, type Model, type Prompt } from "@/lib/constants"
 import { useCopyToClipboard } from "@/lib/hooks/use-copy-to-clipboard"
 import { CheckIcon, ClipboardCopyIcon, ReloadIcon } from "@radix-ui/react-icons"
 
-import { Button } from "./ui/button"
+import { Button } from "../ui/button"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue
-} from "./ui/select"
-import { TooltipWrapper } from "./ui/tooltip-wrapper"
+} from "../ui/select"
+import { TooltipWrapper } from "../ui/tooltip-wrapper"
 
 export default function SummaryActions() {
   const {

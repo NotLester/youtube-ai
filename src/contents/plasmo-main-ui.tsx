@@ -1,4 +1,4 @@
-import Extension from "@/components/extension"
+import Extension from "@/components/extension/extension"
 import Providers from "@/components/provider"
 import cssText from "data-text:~style.css"
 import type { PlasmoCSConfig, PlasmoGetInlineAnchor } from "plasmo"

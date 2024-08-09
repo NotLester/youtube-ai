@@ -4,7 +4,7 @@ import { useEffect } from "react"
 
 import ExtensionActions from "./extension-actions"
 import ExtensionPanels from "./extension-panels"
-import { Collapsible, CollapsibleContent } from "./ui/collapsible"
+import { Collapsible, CollapsibleContent } from "../ui/collapsible"
 
 export default function Extension() {
   const {

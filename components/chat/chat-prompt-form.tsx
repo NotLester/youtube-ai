@@ -8,8 +8,8 @@ import Textarea from "react-textarea-autosize"
 
 import { usePort } from "@plasmohq/messaging/hook"
 
-import { Button } from "./ui/button"
-import { TooltipWrapper } from "./ui/tooltip-wrapper"
+import { Button } from "../ui/button"
+import { TooltipWrapper } from "../ui/tooltip-wrapper"
 
 interface PromptFormProps {
   className?: string

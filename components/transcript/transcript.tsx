@@ -7,7 +7,7 @@ export default function Transcript() {
   const player = document.querySelector("video")
   const transcriptListRef = useRef(null)
 
-  function jumpCurrentTime(): void {
+  const jumpCurrentTime: () => void = () =>  {
     if (!player || !transcriptListRef.current) return
     const time = Math.round(player.currentTime * 1000)
 

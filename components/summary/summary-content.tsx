@@ -1,8 +1,8 @@
 import { useSummary } from "@/contexts/summary-context"
 
-import Markdown from "./markdown"
+import Markdown from "../markdown"
+import { Button } from "../ui/button"
 import SummarySkeleton from "./summary-skeleton"
-import { Button } from "./ui/button"
 
 export default function SummaryContent() {
   const { summaryIsGenerating, summaryContent, generateSummary } = useSummary()

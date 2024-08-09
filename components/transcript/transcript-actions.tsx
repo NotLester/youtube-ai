@@ -8,10 +8,10 @@ import {
   Crosshair1Icon,
   MagnifyingGlassIcon
 } from "@radix-ui/react-icons"
+import { TooltipWrapper } from "../ui/tooltip-wrapper"
+import { Button } from "../ui/button"
+import { Input } from "../ui/input"
 
-import { Button } from "./ui/button"
-import { Input } from "./ui/input"
-import { TooltipWrapper } from "./ui/tooltip-wrapper"
 
 interface TranscriptActionsProps {
   jumpCurrentTime: () => void
@@ -20,8 +20,7 @@ interface TranscriptActionsProps {
 export default function TranscriptActions({
   jumpCurrentTime
 }: TranscriptActionsProps) {
-  const { transcriptSearch, setTranscriptSearch, transcriptJson } =
-    useTranscript()
+  const { transcriptSearch, setTranscriptSearch, transcriptJson } = useTranscript()
 
   const { isCopied, copyToClipboard } = useCopyToClipboard({ timeout: 2000 })
 

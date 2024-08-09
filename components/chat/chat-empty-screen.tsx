@@ -1,8 +1,8 @@
 import { cn } from "@/lib/utils"
 import { ArrowRightIcon } from "@radix-ui/react-icons"
 
-import { Button } from "./ui/button"
-import { IconSparkles } from "./ui/icons"
+import { Button } from "../ui/button"
+import { IconSparkles } from "../ui/icons"
 
 interface EmptyScreenProps {
   className?: string

@@ -2,8 +2,8 @@ import { useCopyToClipboard } from "@/lib/hooks/use-copy-to-clipboard"
 import { CheckIcon, ClipboardCopyIcon, ClockIcon } from "@radix-ui/react-icons"
 import { memo } from "react"
 
-import { Button } from "./ui/button"
-import { TooltipWrapper } from "./ui/tooltip-wrapper"
+import { Button } from "../ui/button"
+import { TooltipWrapper } from "../ui/tooltip-wrapper"
 
 type Transcript = {
   text: string
