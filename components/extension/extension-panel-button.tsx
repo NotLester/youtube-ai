@@ -18,8 +18,7 @@ export default function ExtensionPanelButton({extensionType}: ExtensionPanelButt
         <Button
             variant="outline"
             onClick={() => handleButtonClick(extensionType)}
-            className="
-          rounded-r-none focus:z-10 bg-transparent space-x-2 items-center">
+            className="rounded-r-none focus:z-10 bg-transparent space-x-2 items-center">
             {extensionType === "Summary" && <Pencil2Icon className="h-4 w-4 opacity-60" />}
             {extensionType === "Transcript" && <ActivityLogIcon className="h-4 w-4 opacity-60" />}
             {extensionType === "Chat" && <ChatBubbleIcon className="h-4 w-4 opacity-60" />}
